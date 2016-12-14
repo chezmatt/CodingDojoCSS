@@ -1,0 +1,59 @@
+/* CSS for javascript basics by matt w */
+body, header, nav, section, footer, main, h1{
+	padding: 3px;
+}
+body{
+	background-color: #1d345a;
+	width: 1000px;
+}
+header {
+	background-color: #cc343d;
+	color: #c3d7ea;
+	margin: 10px;
+	padding-left: 20px;
+}
+main {
+	color: #c3d7ea;
+	vertical-align: top;
+	padding: 2px;
+	margin:  10px;
+}
+nav {
+	background-color:#307d8a;
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+}
+section {
+	background-color: #0e1821;
+	display: inline-block;
+	width: 680px;
+	margin-left: 18px;
+	padding-left: 15px;
+}
+footer {
+	background-color: #5e6672;
+	padding-left: 20px;
+}
+a {
+	color: #6ddce3;
+}
+p{
+	color: #c3d7ea;
+}
+
+.navlist{
+	list-style-type: circle;
+	list-style-position: inside;
+}
+.active{
+	list-style: none; 
+	margin-left: -20px;
+	}
+.rounded{
+	border-radius: 20px;
+}
+code {
+	font-family: inherit;
+	color: #6c81f0 ;
+}
